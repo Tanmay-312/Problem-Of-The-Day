@@ -1,4 +1,7 @@
-
+class Solution {
+    
+    public long maxSumWithK(long a[], long n, long k)
+    {
         long maxi = Long.MIN_VALUE, sum = 0, prevSum = 0;
         int j = 0;
         
@@ -21,3 +24,5 @@
         }
         
         return maxi;
+    }
+}
